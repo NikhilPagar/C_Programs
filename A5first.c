@@ -1,0 +1,18 @@
+/////////////////////////////////////////////////////////////////////////////////
+//
+// Write a program which accept from user and print that name
+//
+//////////////////////////////////////////////////////////////////////////////////
+#include<stdio.h>
+
+int main()
+{
+	char chName[30];
+
+	printf("Enter a full name ");
+	scanf("%c",&chName);
+
+	printf("Your name is %s\n",chName);
+
+	return 0;
+}
